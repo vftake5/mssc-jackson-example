@@ -11,13 +11,13 @@ import org.springframework.test.context.ActiveProfiles;
  * használandó property profilt
  */
 
-@ActiveProfiles("snake")
+@ActiveProfiles("kebab")
 @JsonTest
-public class BeerSnakeTest extends BaseTest
+public class BeerKebabTest extends BaseTest
 {
 
 	@Test
-	void testSnake() throws JsonProcessingException
+	void testKebab() throws JsonProcessingException
 	{
 		BeerDto beerDto = getDto();  // getDto az ősosztályban!
 
