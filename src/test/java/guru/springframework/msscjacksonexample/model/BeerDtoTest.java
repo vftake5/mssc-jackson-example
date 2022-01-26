@@ -26,7 +26,8 @@ class BeerDtoTest extends BaseTest
 
 		BeerDto beerDto = objectMapper.readValue(jsonString, BeerDto.class);
 
-		System.out.println(beerDto.toString());
+		System.out.println(jsonString);
+		System.out.println(beerDto);
 	}
 
 	private String getJson() throws JsonProcessingException
